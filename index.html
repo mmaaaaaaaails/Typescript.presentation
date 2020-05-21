@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>TypeScript</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/reveal.css">
+		<link rel="stylesheet" href="assets/css/league.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="assets/image/slide1.jpg">
+					<h1 class="title">TypeScript</h1>
+				</section>
+				<section data-background="assets/image/slide2.jpg">
+					<section>
+						<p>TypeScript is an open-source language which builds on JavaScript, one of the world’s most used tools, by adding static type definitions.</p>
+					</section>
+					<section>
+						<p>The goal of TypeScript is to be a static typechecker for JavaScript programs - in other words, a tool that runs before your code runs (static) and ensure that the types of the program are correct (typechecked).</p>
+					</section>
+					<section>
+						<p>TypeScript “solves” many problems JS has, it is a “superset” of JS, it will make your code less error-prone and pleasant to read. There are a lot of good reasons to use TypeScript.</p>
+					</section>
+				</section>
+				<section data-background="assets/image/slide3.jpg">
+					<section>
+						<p>TypeScript shares the same basic types with JavaScript:</p>
+						<ul>
+							<li>String</li>
+							<li>Number</li>
+							<li>Boolean</li>
+							<li>Undefined</li>
+							<li>Null</li>
+							<li>Symboll</li>
+							<li>Object</li>
+						</ul>
+					</section>
+					<section>
+						<p>but it has a couple of extra types:</p>
+						<ul>
+							<li>Tuple</li>
+							<li>Any</li>
+							<li>Enum</li>
+							<li>Void</li>
+							<li>Never</li>
+							<li>Array</li>
+						</ul>
+					</section>
+				</section>
+				<section data-background="assets/image/slide4.jpg">
+					<section>
+						<h2>Tuple</h2>
+						<p>Tuple is a data type which includes two set of values of different data types.</p>
+						<img src="./assets/image/tuple1.png" alt="example">
+					</section>
+					<section>
+						<img src="./assets/image/tuple2.png" alt="example">
+					</section>
+				</section>
+				<section data-background-transition="zoom" data-background="assets/image/slide5.jpg">
+					<section  >
+						<h2>Any</h2>
+						<p2>We don’t know what type we’re dealing with, so it might as well be any.</p2>
+						<img src="./assets/image/any1.png" alt="example">
+					</section>
+					<section>
+						<img src="./assets/image/any2.png" alt="example">
+					</section>
+					<section>
+						<img src="./assets/image/any3.png" alt="example">
+					</section>
+				</section>
+				<section data-background="assets/image/slide6.jpg">
+					<section>
+						<h2>Void</h2>
+						<p>Void is used where there is no data type.</p>
+						<img src="./assets/image/void1.png" alt="example">
+					</section>
+					<section>
+						<p>There is no meaning to assign void to a variable, as only null or undefined is assignable to void.</p>
+						<img src="./assets/image/void2.png" alt="example">
+					</section>
+				</section>
+				<section data-background="assets/image/slide7.jpg">
+					<h2>Never</h2>
+					<p>The never type is used when you are sure that something is never going to occur.</p>
+					<img src="./assets/image/never.png" alt="example">
+				</section>
+				<section data-background="assets/image/slide8.jpg">
+					<h2>Enum</h2>
+					<p>Enum are a TypeScipt data type that allow the organization of number-based collections of unique identifiers.</p>
+					<img src="./assets/image/enum.png" alt="example">
+				</section>
+				<section data-background="assets/image/slide9.jpg">
+					<h2>Array</h2>
+					<p>An array is a special type of data type which can store multiple values of different data types sequentially using a special syntax.</p>
+					<img src="./assets/image/array1.png" alt="example">
+					<img src="./assets/image/array2.png" alt="example">
+				</section>
+				<section id="fragments" data-background="assets/image/slide10.jpg">
+						<h2>Benefits of TypeScript:</h2>
+						<ul>
+							<li class="fragment">Catch bugs while coding instead of in production</li>
+							<li class="fragment">Сode completion</li>
+							<li class="fragment">self-documenting code</li>
+							<li class="fragment">Improved code readability</li>
+							<li class="fragment">Write ES2015+ </li>
+							<li class="fragment">Optional static typing</li>
+							<li class="fragment">Great ecosystem</li>
+							<li class="fragment">Increase career opportunities</li>
+						</ul>
+				</section>
+				<section id="fragments" data-background="assets/image/slide11.jpg">
+					<h2>Downsides to TypeScript:</h2>
+					<ul>
+						<li class="fragment">Higher upfront cost to write new code</li>
+						<li class="fragment">Another library to stay up to date with</li>
+						<li class="fragment">Learning curve for JavaScript engineers</li>
+						<li class="fragment">Complex types can be tricky to figure out </li>
+						<li class="fragment">More verbose code</li>
+					</ul>
+				</section>
+				<section data-background="assets/image/slide12.jpg">
+					<p>Finally, we frequently see the question “Should I learn JavaScript, or TypeScript instead?“.</p>
+					<p> Snswer is that you can’t do one without doing the other! Because TypeScript shares syntax and runtime behavior with JavaScript, anything you learn about JavaScript is helping you learn TypeScript at the same time.
+					</p>
+				</section>
+				<section data-background="assets/image/slide13.jpg">
+					<p>Thanks</p>
+				</section>
+			</div>
+		</div>
+		<script src="js/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+				transition: 'slide',
+			});
+		</script>
+	</body>
+</html>
